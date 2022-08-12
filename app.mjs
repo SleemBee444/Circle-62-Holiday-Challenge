@@ -26,21 +26,21 @@ function startApp() {
     //test for Airtel
     airtelPrefix.forEach(element => {
       if (element === getPhoneNumber()) {
-        alert('it is airtel');
+        alert('it is Airtel');
       }
     });
 
     //test for mtn
     mtnPrefix.forEach(element => {
       if (element === getPhoneNumber()) {
-        alert('it is mtn');
+        alert('it is Mtn');
       }
     });
 
     //test for globacom
     globacomPrefix.forEach(element => {
       if (element === getPhoneNumber()) {
-        alert('it is globacom');
+        alert('it is Globacom');
       }
     });
 
